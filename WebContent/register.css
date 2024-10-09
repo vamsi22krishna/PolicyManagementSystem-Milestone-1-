@@ -1,0 +1,79 @@
+body {
+    padding-top:50px;
+}
+fieldset {
+    border: thin solid #ccc; 
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 40px;
+    background: #fbfbfb;
+}
+legend {
+   color: #678;
+}
+.form-control {
+    width: 95%;
+}
+label small {
+    color: #678 !important;
+}
+span.req {
+    color:maroon;
+    font-size: 112%;
+}
+ body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group label {
+        font-weight: bold;
+    }
+
+    .form-group input {
+        border-radius: 5px;
+    }
+
+    .btn-success {
+        background-color: #3880ce;
+        border-color: #3880ce;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .btn-success:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+    .error-message {
+        color: red;
+        font-size: 0.875em;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .req {
+        color: red;
+    }
+
+    .confirmMessage {
+        font-size: 0.875em;
+    }
+
+    .container h5 {
+        font-size: 0.9em;
+        color: #555;
+    }
